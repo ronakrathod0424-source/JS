@@ -68,3 +68,46 @@ console.log(typeof(myFunction));
 
 
 // https://262.ecma-international.org/5.1/#sec-11.4.3
+
+
+
+// ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+// MEMORY:-
+//   stack (Primitive) ,Heap (Non-Primitive)
+
+// stack :- stores primitive data types and function calls
+let myYTname = "OG";
+
+let anotherYTname = myYTname;
+anotherYTname = "OG2";
+
+console.log(anotherYTname);
+console.log(myYTname);
+
+//note :- when we assign a primitive data type to another variable , it creates a copy of the original variable in the stack memory.
+//         So when we change the value of the new variable , it does not change the value of the original variable.
+// -----------------------------------------------------------------------------------------------------------------------------------
+
+// heap :- stores non-primitive data types (array , object , function)
+let myArray = [1,2,3,4,5];
+
+let anotherArray = myArray;
+anotherArray.push(6);
+
+console.log(myArray);
+console.log(anotherArray);
+
+let myObject2 = {
+    name : "OG",
+    age : 20,
+}
+let anotherObject = myObject2;
+anotherObject.name = "OG2";
+
+console.log(myObject2);
+console.log(anotherObject);
+
+//note :- when we assign a non-primitive data type to another variable , it creates a reference to the original variable in the heap memory.
+//          So when we change the value of the new variable , it also changes the value of the original variable.
+
