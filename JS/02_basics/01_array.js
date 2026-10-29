@@ -7,10 +7,25 @@ const myarr2 = ["Esports"," Power bank","laptop"];
 // console.log(myarr2[0]);
 
 //Arrrays methods
-myarr.push(6); //add an element like number,name,object at the end of the array.
-myarr.pop(); //removes the last element from the array
-myarr.unshift(0);
-console.log(myarr);
+// myarr.push(6); //add an element like number,name,object at the end of the array.
+// myarr.pop(); //removes the last element from the array
+// myarr.unshift(0);
+// console.log(myarr);
 
-const newarr = myarr.join  // to 
-console.log(newarr);
+// const newarr = myarr.join  
+// console.log(newarr);
+
+// slice, splice
+
+console.log("A",myarr);
+
+const myn1 = myarr.slice(1 ,3)
+
+console.log(myn1);
+console.log("B",myarr);
+
+const myn2 = myarr.splice(1 ,3)
+
+console.log(myn2);
+
+
