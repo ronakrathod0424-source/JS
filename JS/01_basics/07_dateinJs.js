@@ -52,10 +52,11 @@ console.log(myBirthday.toLocaleString());
 
 
 //how to get international date format using toLocaleString() method. 
-let newDate = new Date();
 console.log(newDate.toLocaleString('en-US', {
     // how to get all properties ctrl + space bar
     weekday: "long",
     year: 'numeric',
     month: 'long',
 }));
+   
+
