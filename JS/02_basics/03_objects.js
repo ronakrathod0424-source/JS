@@ -46,7 +46,9 @@ console.log(jsuser2["full name"]);
 //===============================
 //How to change the value of a property in an object
 jsuser.age = 25;
-console.log(jsuaer.age); // outpuat:25
+console.log(jsuser.age); // output: 25
 //===============================
 //how to lock a Value or we want no one can change the value so.....
-object.freeze(jsuser); // this will lock the object and no one can change the value of the properties of the object
+object.freeze(jsuser); // this will lock the object and no one can change the value.
+
+
