@@ -14,3 +14,4 @@ console.log(typeof(a));// Output :-Number
 
 //a = 10;
 //initialization
+
